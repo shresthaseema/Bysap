@@ -1,0 +1,149 @@
+.bottom-border {
+    border-bottom: 2px solid gray;
+}
+
+.fit-width {
+    width: max-content;
+}
+
+.star {
+    content: '';
+    height: 0.7rem;
+    background-color: white;
+    border: 2px solid gray;
+    width: 50%;
+    position: relative;
+    left: 0.8rem;
+    bottom: -0.52rem;
+    border-radius: 0.2rem;
+}
+
+.star-indicator-1 {
+    z-index: 500;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.5rem;
+    background-color: rgb(236, 240, 28);
+}
+
+.star-indicator-2 {
+    z-index: 500;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.5rem;
+    background-color: rgb(236, 240, 28);
+}
+
+.star-indicator-3 {
+    z-index: 500;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.5rem;
+    background-color: rgb(236, 240, 28);
+}
+
+.star-indicator-4 {
+    z-index: 500;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.5rem;
+    background-color: rgb(236, 240, 28);
+}
+
+.star-indicator-5 {
+    z-index: 500;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.5rem;
+    background-color: rgb(236, 240, 28);
+}
+
+.cust-name {
+    font-weight: 600;
+}
+
+.carousel-row {
+    width: 90%;
+    margin: auto;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: -25px;
+    display: block !important;
+    border: 0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block !important;
+    border: 0px solid black;
+}
+
+.quantity:focus {
+    box-shadow: inset 0 -1px 0 #fff;
+}
+
+.quantity {
+    width: max-content;
+}
+
+.dimmed {
+    position: relative;
+    filter: brightness(42%);
+}
+
+.all-disp-img {
+    transition: 0.2s ease-in;
+}
+
+.disp-main {
+    min-height: 310px;
+    max-height: 310px;
+}
+
+@media(max-width:992px) {
+    .disp-main {
+        min-height: 310px;
+        max-height: 310px;
+    }
+}
+
+@media(max-width:470px) {
+    .disp-main {
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+.err-box {
+    position: absolute;
+    top: 55px;
+}

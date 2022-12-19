@@ -1,0 +1,92 @@
+.contact-container {
+    display: flex;
+    background: var(--bg-color);
+}
+
+.left-col {
+    width: 50%;
+    height: 50%;
+}
+
+.contact-button,
+.description {
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.contact-form {
+    width: 31.25rem;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.contact-input,
+.contact-textarea,
+.contact-label {
+    width: 40vw;
+    display: block;
+}
+
+.contact-input,
+.contact-textarea {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+    color: var(--primary-color);
+}
+
+.contact-input,
+.contact-textarea {
+    color: var(--primary-color);
+    font-weight: 500;
+    background: var(--bg-color);
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.contact-textarea {
+    resize: none;
+}
+
+.contact-button {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: grey;
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.contact-input:hover,
+.contact-textarea:hover,
+.contact-button:hover {
+    opacity: 0.5;
+}
+
+.contact-button:active {
+    opacity: 0.8;
+}
+
+.contact-input,
+.contact-label,
+.contact-textarea,
+.contact-button {
+    font-size: 0.65rem;
+}
+
+.description {
+    font-size: 0.3rem;
+    margin-left: 0.4rem;
+}
+
+.contact-button {
+    width: 7rem;
+    border-radius: 1rem;
+}

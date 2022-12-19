@@ -1,0 +1,99 @@
+/*cart*/
+.title {
+    margin: 2.5vh 0;
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: 3vh auto
+    }
+}
+
+.card-container {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem
+}
+
+@media(max-width:767px) {
+    .main-container {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem
+    }
+}
+
+.summary {
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65)
+}
+
+@media(max-width:767px) {
+    .summary {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem
+    }
+}
+
+.title b {
+    font-size: 1.5rem
+}
+
+.main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%
+}
+
+
+.incdec-link{
+    padding: 0 1vh;
+    text-decoration: none;
+    color: black;
+}
+
+.close {
+    margin-left: auto;
+    font-size: 0.7rem
+}
+
+.prod-img {
+    width: 3.5rem
+}
+
+.back-to-shop {
+    margin-top: 4.5rem
+}
+
+.cart-input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+  	border-radius: 1rem;
+    width: 100%;
+    background-color: rgb(247, 247, 247)
+}
+
+.cart-input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+#code {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center
+}
+
+.header-card{
+    border-bottom: 2px solid rgb(196, 192, 192);
+}
+
+.totals{
+    border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;
+}
